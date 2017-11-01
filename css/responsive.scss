@@ -1,0 +1,367 @@
+/*RESPONSIVE*/
+@import 'variables-privun.scss';
+
+@media (min-width: 768px) { 
+
+		html, body {
+		    .header-small {
+			nav.navbar-default {
+				.navbar-header {
+					button.navbar-toggle {
+
+					}
+					a.logo-gd {
+						img {
+						}
+					}
+				}
+				.navbar-collapse {
+					ul.navbar-right {
+						li {
+							a {
+								font-size: 16px;
+								padding: 7px 20px 0 20px;
+							}
+						}
+					}
+				}
+			}
+	    }
+		header {
+			nav.navbar-default {
+				.navbar-header {
+					button.navbar-toggle {
+
+					}
+					a.logo-gd {
+						img {
+							margin-left: 0;
+							-webkit-transition: 0.3s ease-in-out;
+							-moz-transition: 0.3s ease-in-out;
+							-o-transition: 0.3s ease-in-out;
+							transition: 0.3s ease-in-out;
+						}
+					}
+				}
+				.navbar-collapse {
+					background-color: transparent;
+					ul.navbar-right {
+						li {
+							border-bottom: none;
+							a {
+								color: $white-dot;
+								font-size: 20px;
+								font-weight: bold;
+								-webkit-transition: 0.3s ease-in-out;
+								-moz-transition: 0.3s ease-in-out;
+								-o-transition: 0.3s ease-in-out;
+								transition: 0.3s ease-in-out;
+							}
+
+						}
+					}
+				}
+			}
+		}
+		.home-video {	
+		.title-home-video {
+		padding: 10px 0 80px 0;	
+			.home-title {
+				span {
+					padding: 0 20px 10px;
+					font-size: 50px;					
+				}
+			}
+			.video-quote {
+				p {
+					&:after {					
+					}
+				}
+			}
+		}
+		.video-container-gd {	
+			.overlay-dot {				
+			}
+			video {				
+			}
+		}
+	}
+	.what-we-do {		
+        h2 {
+        	&:after {        		
+        	}
+        }
+        h3 {
+        	font-size: 20px;
+        	&:before {    			
+        	}
+        }
+        p {
+        	padding: 0 70px;        	
+        }
+        .what-we-do-title {
+        	p { 
+        		font-size: 16px;        		
+        	}
+        }
+        .interaction-design-company {
+        text-align: left;	
+        	h3 {
+	        	&:before {
+	        	display: inline-block;	    			
+	        	}
+        	}
+    	}
+        .google-cloud-platform {
+        text-align: left;	
+        	h3 {
+	        	&:before {
+	        	display: inline-block;	    			
+	        	}
+        	}
+    	}
+    	.enterprise-banking-portals {
+    	text-align: left;	
+        	h3 {
+	        	&:before {
+	        	display: inline-block;	    			
+	        	}
+        	}
+    	}
+    	.data-science {
+    	text-align: left;	
+        	h3 {
+	        	&:before {
+	        	display: inline-block;	    			
+	        	}
+        	}
+    	}
+
+	}
+	.our-partnerships {		
+		h2 {			
+			&:after {				
+			}
+		}
+		p {		    
+		}
+	}
+	.our-clients {		
+	}
+	.medium-blog {		
+	    p {	
+	    	font-size: 16px;    	
+	    }
+	    button {	    	
+	    } 
+	}
+	.we-are-hiring {		
+		button {			
+		}
+		p {	
+			font-size: 16px;		
+		}
+	}
+	.we-are-hiring.internal-we-are-hiring {
+
+	}
+	.tabs-carrers {
+		ul {
+			li {
+				width: calc(100% / 5);
+			}
+		}
+	}
+	.contact-us {		
+		p {				
+		}
+		.contact-us-title {
+			p {	
+				font-size: 16px;			
+			}
+		h2 {
+			&:after {				
+			}
+		}
+		a {			
+    		&:hover {    			
+    		}
+		}
+		.form-horizontal {
+			input {
+				width: 50%;
+			}
+		}
+		}
+		ul {			
+			&:after {				
+			}
+			li {				
+				a {				    
+				}
+				img {				    
+				}
+			}
+		}
+	}
+	footer {		
+		.habeas-data {
+		text-align: left;			
+		}
+		.all-rights {
+		text-align: right;			
+		}
+	}
+	}
+
+ }
+
+
+
+ @media (min-width: 992px) { 
+
+	html, body {
+		header {
+			a {
+			}
+			.menu_bar {
+			}
+			nav {
+				ul {
+					li {
+						a {
+						}
+					}
+				}
+			}
+		}
+		.home-video {
+		padding: 0;		
+		.title-home-video {
+		top: 80px;	
+		position: absolute;				
+			.home-title {
+				span {					
+				}
+			}
+			.video-quote {
+				p {
+					&:after {					
+					}
+				}
+			}
+		}
+		.video-container-gd {	
+			.overlay-dot {				
+			}
+			video {				
+			}
+		}
+	}
+	.what-we-do {		
+        h2 {
+        	&:after {        		
+        	}
+        }
+        h3 {
+        	font-size: 28px;
+        	&:before {    			
+        	}
+        }
+        p {        	
+        }
+        .what-we-do-title {
+        	p { 
+        		font-size: 18px;
+        		padding: 0 15%;       		
+        	}
+        }
+        .interaction-design-company {	
+        	h3 {
+	        	&:before {	    			
+	        	}
+        	}
+    	}
+        .google-cloud-platform {	
+        	h3 {
+	        	&:before {	    			
+	        	}
+        	}
+    	}
+    	.enterprise-banking-portals {	
+        	h3 {
+	        	&:before {	    			
+	        	}
+        	}
+    	}
+    	.data-science {	
+        	h3 {
+	        	&:before {	    			
+	        	}
+        	}
+    	}
+
+	}
+	.our-partnerships {		
+		h2 {			
+			&:after {				
+			}
+		}
+		p {		    
+		}
+	}
+	.our-clients {		
+	}
+	.medium-blog {		
+	    p {	
+	    	font-size: 18px;
+	    	padding: 0 15%;    	
+	    }
+	    button {	    	
+	    } 
+	}
+	.we-are-hiring {		
+		button {			
+		}
+		p {	
+			font-size: 18px;
+			padding: 0 15%;		
+		}
+	}
+	.contact-us {		
+		p {				
+		}
+		.contact-us-title {
+			p {	
+				font-size: 18px;
+				padding: 0 15%;			
+			}
+		}
+		h2 {
+			&:after {				
+			}
+		}
+		a {			
+    		&:hover {    			
+    		}
+		}
+		ul {			
+			&:after {				
+			}
+			li {				
+				a {				    
+				}
+				img {				    
+				}
+			}
+		}
+	}
+	footer {		
+		.habeas-data {			
+		}
+		.all-rights {			
+		}
+	}
+	}
+
+ }

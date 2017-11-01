@@ -1,0 +1,505 @@
+@import 'variables-privun.scss';
+
+html,body {
+	font-family: 'Ubuntu', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	h1, h2, h3, h4, h5, h6 {
+	color: $white-dot;
+	}
+    h1 {
+	font-size: 50px;
+	font-weight: 600;
+    }
+    h2 {
+    	font-size: 30px;
+    	font-weight: 500;
+    	text-align: center;
+    	margin-top: 15px;
+    	&:after {
+		    display: block;
+    		margin: 20px auto;
+    		content: '';
+    		border-bottom: 3px solid;
+    		width: 40px;
+    	}
+
+    }
+    h3 {
+    	font-size: 20px;
+    	font-weight: bold;
+    }
+    h4 {
+    	&:after {
+    		display: block;
+    		margin: 20px auto;
+    		content: '';
+    		border-bottom: 4px solid $red-dot;
+    		width: 30px;
+    	}
+    }
+    .header-small {
+    	background-color: $black-dot;
+    	height: 65px;
+    	border-bottom: 2px solid $red-dot;
+    	position: fixed;
+		-ms-transform: translate(0, -10px); /* IE 9 */
+		-webkit-transform: translate(0, -10px); /* Safari */
+		transform: translate(0, -10px);
+		-webkit-transition: 0.3s ease-in-out;
+		-moz-transition: 0.3s ease-in-out;
+		-o-transition: 0.3s ease-in-out;
+		transition: 0.3s ease-in-out;
+		width: 100%;
+		z-index: 2;
+		nav.navbar-default {
+			.navbar-header {
+				button.navbar-toggle {
+
+				}
+				a.logo-gd {
+					img {
+						max-width: 140px;
+						-webkit-transition: 0.3s ease-in-out;
+						-moz-transition: 0.3s ease-in-out;
+						-o-transition: 0.3s ease-in-out;
+						transition: 0.3s ease-in-out;
+					}
+				}
+			}
+		}
+    }
+    .internal-header {
+    	background-color: $black-dot;
+    	padding: 12px;
+    	height: 65px;
+
+    }
+    .internal-header.header-small {
+    	padding: 20px;
+    }
+    header {
+    	padding: 20px 0;
+    	position: fixed;
+    	width: 100%;
+    	z-index: 2;
+		-webkit-transition: 0.3s ease-in-out;
+		-moz-transition: 0.3s ease-in-out;
+		-o-transition: 0.3s ease-in-out;
+		transition: 0.3s ease-in-out;
+    	nav.navbar-default {
+    		background-color: transparent;
+    		border: none;
+    		margin: 0;
+    		left: 0;
+    		position: fixed;
+    		width: 100%;
+	    	.navbar-header {
+    		button.navbar-toggle {
+    			margin-top: 0;
+
+	    		}
+    		a.logo-gd {
+    			img {
+	    				max-width: 170px;
+	    				margin-left: 15px;
+	    			}
+	    		}
+	    	}
+	    	.navbar-collapse {
+	    		background-color: $red-dot;
+	    		border-color: transparent;
+	    		ul {
+	    			li {
+	    				border-bottom: 2px solid $white-dot;
+	    				&:last-child {
+	    					border-bottom: none;
+	    				}
+	    				a {
+	    					color: $white-dot;
+	    					font-size: 20px;
+	    					font-weight: bold;
+	    				}
+	    			}
+	    		}
+
+	    	}
+    	}
+    }
+	.home-video {
+		overflow: hidden;
+    	padding: 80px 0 0 0;
+    	background-image: url(../img/intro.png);
+    	background-size: cover;
+    	background-position: center;
+		background-color: $black-dot;
+		.title-home-video {
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+			color: $white-dot;
+			.home-title {
+				span {
+					background-color: $red-dot;
+					padding: 0 10px 5px;
+					font-size: 40px;
+					font-weight: 500;
+				}
+			}
+			.video-quote {
+				p {
+					font-style: italic;
+					font-size: 17px;
+					margin-top: 20px;
+					&:after {
+					content: "\e908";
+    				font-family: 'icomoon' !important;
+    				font-size: 20px;
+    				font-style: normal;
+    				display: block;
+					}
+				}
+			}
+		}
+		.video-container-gd {
+			width: 100%;
+			position: relative;
+			.overlay-dot {
+				content: '';
+				background-color: $black-dot;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				opacity: 0.5;
+				overflow: hidden;
+			}
+			video {
+				display: block;
+			}
+		}
+	}
+	.what-we-do {
+		background-color: $black-dot;
+		color: $white-dot;
+	    border-top: 6px solid $red-dot;
+        padding: 20px 0 40px 0;
+        h2 {
+        	&:after {
+        		color: $red-dot;
+        	}
+        }
+        h3 {
+        	margin: 20px 0;
+        	&:before {
+    			font-family: 'icomoon' !important;
+    			font-weight: 300;
+   				font-size: 50px;
+				vertical-align: middle;
+				padding-right: 18px;
+        	}
+        }
+        p {
+        	color: $font-text-dot;
+        }
+        .what-we-do-title {
+        	p {
+    			text-align: center;
+    			margin: 30px 0;
+        	}
+        }
+        .interaction-design-company {
+        text-align: center;	
+        	h3 {
+	        	&:before {
+	    			content: "\e903";
+	    			display: block;
+	        	}
+        	}
+    	}
+        .google-cloud-platform {
+        text-align: center;	
+        	h3 {
+	        	&:before {
+	    			content: "\e902";
+	    			display: block;
+	        	}
+        	}
+    	}
+    	.enterprise-banking-portals {
+    	text-align: center;	
+        	h3 {
+	        	&:before {
+	    			content: "\e901";
+	    			display: block;
+	        	}
+        	}
+    	}
+    	.data-science {
+    	text-align: center;	
+        	h3 {
+	        	&:before {
+	    			content: "\e900";
+	    			display: block;
+	        	}
+        	}
+    	}
+
+	}
+	.our-partnerships {
+		background-color: $gray-dot;
+		padding: 20px 0 40px 0;
+		text-align: center;
+		h2 {
+			color: $black-dot;
+			&:after {
+				color: $red-dot;
+			}
+		}
+		img {
+			margin: 0 auto;
+			max-width: 200px;
+		}
+		p {
+		    border-top: 2px solid red;
+    		padding: 20px 0;
+    		margin: 20px 0;
+		}
+	}
+	.our-clients {
+		background: url(../img/bg-our-clients.png) center center;
+		background-size: cover;
+		height: 350px;
+	    padding: 20px 0 40px 0;
+	    .bx-wrapper {
+	    	background-color: transparent;
+	    	border: none;
+	    	box-shadow: none;
+	    	margin: 0 auto;
+	    	img {
+	    		padding: 25px 50px;
+	    	}
+	    }
+	}
+	.medium-blog {
+		background-color: $black-dot;
+		text-align: center;
+	    padding: 20px 0 40px 0;
+	    img {
+	    	max-width: 60px;
+	    }
+	    p {
+	    	color: $white-dot;
+	    	margin: 30px;
+	    }
+	    button {
+	    	padding: 9px 43px;
+    		border-radius: 4px;
+    		color: $black-dot;
+	    } 
+	}
+	.we-are-hiring {
+		background-color: $red-dot;
+		text-align: center;
+		color: $white-dot;
+		padding: 20px 0 40px 0;
+		button {
+			padding: 9px 23px;
+    		border-radius: 4px;
+    		color: $black-dot;
+		}
+		p {
+			color: $white-dot;
+	    	margin: 30px;
+		}
+	}
+	.we-are-hiring.internal-we-are-hiring {
+		padding: 80px 0 0 0;
+	}
+	.tabs-carrers {
+		ul {
+			border: none;
+			background-color: $red-dot;
+			padding: 2px 50px;
+			text-align: center;
+			li {
+				width: 100%;
+				&.active {
+					border: none;
+				}
+				a {
+					color: $white-dot;
+					font-size: 20px;
+					background-color: transparent;
+				}
+			}
+		}
+		.tab-content {
+			.tab-pane {
+				.panel-group {
+					margin-bottom: 0;
+					.panel {
+						border: none;
+						.panel-heading {
+							text-align: center;
+							background-color: $white-dot;
+							padding: 50px 0;
+							h4 {
+								font-size: 20px;
+							}
+							i {
+								color: $red-dot;
+								font-size: 20px;
+							}
+						}
+						.panel-heading.panel-gray {
+							background-color: $gray-dot;
+							padding: 50px 0;
+						}
+						.panel-collapse {
+							.panel-body {
+								border: none;
+							}
+						}
+					}
+				}
+			}
+		} 
+	}
+	.contact-us {
+		background-color: $black-dot;
+		text-align: center;
+		padding: 60px 0 40px 0;
+		p {
+			color: $font-text-dot;
+    		margin: 0;
+			}
+		.contact-us-title {
+			p {
+				color: $font-text-dot;
+	    		margin: 30px;
+			}
+		h2 {
+			&:after {
+				color: $red-dot;
+			}
+		}
+		a {
+			color: #FFFFFF;
+    		font-size: 24px;
+    		font-weight: bold;
+    		cursor: pointer;
+    		&:hover {
+    			text-decoration: line-through $red-dot;
+				-webkit-transition: 1s ease-in;
+				-moz-transition: 1s ease-in;
+				-o-transition: 1s ease-in;
+				transition: 1s ease-in;
+    		}
+    		&:focus {
+    			color: $red-dot;
+    		}
+    		&:active {
+    			color: $red-dot;
+    		}
+    		&:visited {
+    			color: $red-dot;
+    		}
+		}
+		.form-horizontal {
+			display: none;
+			input {
+			width: 100%;
+		    background: transparent;
+    		background-clip: padding-box;
+    		border: none;
+    		border-radius: 1px;
+    		font-size: 14px;
+    		height: 32px;
+    		line-height: 1.42857143;
+    		padding: 0 25px;
+    		vertical-align: baseline;
+    		box-sizing: border-box;
+    		border-bottom: 1px solid $white-dot;
+    		font-family: 'Ubuntu', sans-serif;
+    		font-weight: bold;
+    		&::placeholder {
+			color: $white-dot;
+    				}
+				}
+			&:before {
+		    content: "\e908";
+    		font-family: 'icomoon' !important;
+    		font-size: 20px;
+    		display: block;
+    		color: white;
+    		transform: rotate(180deg);
+    		padding: 15px 0;
+			}
+			button {
+				background-color: $red-dot;
+				border: none;
+				color: $white-dot;
+				padding: 15px 55px;
+				margin: 30px;
+			}
+			}
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			&:after {
+				border-bottom: 6px solid;
+				color: $red-dot;
+				content: '';
+				display: block;
+				margin: 30px auto;
+				width: 40px;
+			}
+			li {
+				display: inline-block;
+				a {
+				    font-size: 30px;
+    				padding: 0 10px;
+    				color: $white-dot;
+				}
+				img {
+				    width: 30px;
+    				margin-top: -10px;
+				}
+			}
+		}
+	}
+	footer {
+		background-color: $black-dot;
+		border-top: 3px solid $white-dot;
+		font-size: 12px;
+		padding: 20px 0;
+		text-align: center;
+		.habeas-data {
+			color: $white-dot;
+		}
+		.all-rights {
+			color: $font-text-dot;
+		}
+	}
+}
+
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $white-dot;
+    border: none;
+    border-bottom: 3px solid;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: transparent;
+    border-bottom: 3px solid;
+    background-color: transparent;
+}

@@ -1,0 +1,86 @@
+/*RESPONSIVE*/
+@media (min-width: 768px) {
+  html .header-small nav.navbar-default .navbar-collapse ul.navbar-right li a, body .header-small nav.navbar-default .navbar-collapse ul.navbar-right li a {
+    font-size: 16px;
+    padding: 7px 20px 0 20px; }
+  html header nav.navbar-default .navbar-header a.logo-gd img, body header nav.navbar-default .navbar-header a.logo-gd img {
+    margin-left: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+  html header nav.navbar-default .navbar-collapse, body header nav.navbar-default .navbar-collapse {
+    background-color: transparent; }
+    html header nav.navbar-default .navbar-collapse ul.navbar-right li, body header nav.navbar-default .navbar-collapse ul.navbar-right li {
+      border-bottom: none; }
+      html header nav.navbar-default .navbar-collapse ul.navbar-right li a, body header nav.navbar-default .navbar-collapse ul.navbar-right li a {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; }
+  html .home-video .title-home-video, body .home-video .title-home-video {
+    padding: 10px 0 80px 0; }
+    html .home-video .title-home-video .home-title span, body .home-video .title-home-video .home-title span {
+      padding: 0 20px 10px;
+      font-size: 50px; }
+  html .what-we-do h3, body .what-we-do h3 {
+    font-size: 20px; }
+  html .what-we-do p, body .what-we-do p {
+    padding: 0 70px; }
+  html .what-we-do .what-we-do-title p, body .what-we-do .what-we-do-title p {
+    font-size: 16px; }
+  html .what-we-do .interaction-design-company, body .what-we-do .interaction-design-company {
+    text-align: left; }
+    html .what-we-do .interaction-design-company h3:before, body .what-we-do .interaction-design-company h3:before {
+      display: inline-block; }
+  html .what-we-do .google-cloud-platform, body .what-we-do .google-cloud-platform {
+    text-align: left; }
+    html .what-we-do .google-cloud-platform h3:before, body .what-we-do .google-cloud-platform h3:before {
+      display: inline-block; }
+  html .what-we-do .enterprise-banking-portals, body .what-we-do .enterprise-banking-portals {
+    text-align: left; }
+    html .what-we-do .enterprise-banking-portals h3:before, body .what-we-do .enterprise-banking-portals h3:before {
+      display: inline-block; }
+  html .what-we-do .data-science, body .what-we-do .data-science {
+    text-align: left; }
+    html .what-we-do .data-science h3:before, body .what-we-do .data-science h3:before {
+      display: inline-block; }
+  html .medium-blog p, body .medium-blog p {
+    font-size: 16px; }
+  html .we-are-hiring p, body .we-are-hiring p {
+    font-size: 16px; }
+  html .tabs-carrers ul li, body .tabs-carrers ul li {
+    width: calc(100% / 5); }
+  html .contact-us .contact-us-title p, body .contact-us .contact-us-title p {
+    font-size: 16px; }
+  html .contact-us .contact-us-title .form-horizontal input, body .contact-us .contact-us-title .form-horizontal input {
+    width: 50%; }
+  html footer .habeas-data, body footer .habeas-data {
+    text-align: left; }
+  html footer .all-rights, body footer .all-rights {
+    text-align: right; } }
+@media (min-width: 992px) {
+  html .home-video, body .home-video {
+    padding: 0; }
+    html .home-video .title-home-video, body .home-video .title-home-video {
+      top: 80px;
+      position: absolute; }
+  html .what-we-do h3, body .what-we-do h3 {
+    font-size: 28px; }
+  html .what-we-do .what-we-do-title p, body .what-we-do .what-we-do-title p {
+    font-size: 18px;
+    padding: 0 15%; }
+  html .medium-blog p, body .medium-blog p {
+    font-size: 18px;
+    padding: 0 15%; }
+  html .we-are-hiring p, body .we-are-hiring p {
+    font-size: 18px;
+    padding: 0 15%; }
+  html .contact-us .contact-us-title p, body .contact-us .contact-us-title p {
+    font-size: 18px;
+    padding: 0 15%; } }
+
+/*# sourceMappingURL=responsive.css.map */
